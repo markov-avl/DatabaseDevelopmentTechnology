@@ -5,10 +5,12 @@
 \usepackage[russian]{babel}
 \usepackage[14pt]{extsizes}
 \usepackage{setspace}
-\usepackage[left=20mm, top=15mm, right=15mm, bottom=20mm, nohead, footskip=10mm]{geometry}
+\usepackage[left=20mm, top=15mm, right=15mm, bottom=25mm, nohead, footskip=10mm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{calc}
+\usepackage{multicol}
+\usepackage{array}
 
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
@@ -29,20 +31,34 @@
 		\noindent\rule{\textwidth}{1pt} \\ [0.5cm]
 		\textbf{
 			\MakeUppercase{Институт математики и компьютерных технологий} \\ [0.5cm]
-            Направление 02.03.03 <<Математическое обеспечение и администрирование информационных систем>>
-		} \\ [1cm]
+            Направление 02.03.03 <<Математическое обеспечение и администрирование информационных систем>> \\ [1cm]
+			\MakeUppercase{Курсовая работа по дисциплине} \\
+			\MakeUppercase{<<Технология разработки баз данных>>}
+		} \\ [0.5cm]
 		\MakeUppercase{
-			Курсовая работа на тему <<Оператор сотовой связи>> по дисциплине \\
-			<<Технология разработки баз данных>>
-		} \\ [4cm]
+			Анализ предметной области \\
+			<<Оператор сотовой связи>>
+		} \\ [1.5cm]
 	\end{center}
 
+	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+	\small
+
 	\begin{flushright}
-		\begin{tabular}{rl}
-            Выполнил: студент группы & \group \\ [0.1cm]
-            Марков А.В. & \rule{\widthof\group}{0.15mm} \\ [0.1cm]
-			Проверил:  Антонова Е.И. & \rule{\widthof\group}{0.15mm} \\
+		\begin{tabular}{rrrr}
+			\multicolumn{4}{R{10cm}}{Студент группы \group, Марков А.В.}                                      \\ [0.2cm]
+			\rule{3cm}{0.15mm}   & <<\rule{1cm}{0.15mm}>>   & \rule{3cm}{0.15mm}   & \the\year{} г.  \\ [0.4cm]
+			\multicolumn{4}{R{10cm}}{Доцент кафедры к.т.н., Антонова Е.И.}                               \\ [0.2cm]
+			\rule{3cm}{0.15mm}   & <<\rule{1cm}{0.15mm}>>   & \rule{3cm}{0.15mm}   & \the\year{} г. 
 		\end{tabular}
 	\end{flushright}
+
+	\begin{flushleft}
+		\begin{tabular}{llll}
+			\multicolumn{4}{l}{Защищена оценкой \rule{2.66cm}{0.15mm}}                      \\ [0.2cm]
+			\multicolumn{2}{l}{\rule{3cm}{0.15mm}} & \multicolumn{2}{l}{\rule{3cm}{0.15mm}} \\ [0.2cm]
+			<<\rule{1cm}{0.15mm}>> & \multicolumn{2}{l}{\rule{3cm}{0.15mm}} & \the\year{} г.
+		\end{tabular}
+	\end{flushleft}
 
 \end{document}
