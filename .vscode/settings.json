@@ -1,6 +1,8 @@
 {
+    "latex-workshop.message.badbox.show": false,
     "cSpell.words": [
         "ГГГГ",
-        "Даталогическая"
+        "Даталогическая",
+        "Инфологическая"
     ]
 }
