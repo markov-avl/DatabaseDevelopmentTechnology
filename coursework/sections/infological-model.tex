@@ -2,10 +2,17 @@
 
 \subsection{Информационные объекты}\label{subsec:information-objects}
 
+\newcommand{\img}[2]{
+    \begin{figure}[H]
+        \label{fig:#1}
+        \center{\includegraphics[scale=0.9]{graphics/#1}}
+        \caption{#2}
+    \end{figure}
+}
+
 Выделим следующие информационные объекты:
 \begin{enumerate}
-    \item \textbf{Телефонный номер} \\
-    Телефонный номер -- это уникальный идентификационный номер в телекоммуникационной системе связи. Этот объект характеризуется следующими атрибутами:
+    \item \textbf{Телефонный номер} -- это уникальный идентификационный номер в телекоммуникационной системе связи. Этот объект характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Номер:
         \begin{itemize}
@@ -25,14 +32,9 @@
             \item менеджер и абонент не имеют никакого доступа, продавец-консультант имеет доступ для чтения и записи.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:telephone-number-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Телефонный номер>>}
-        \center{\includegraphics{graphics/telephone-number-attributes}}
-    \end{figure}
+    \img{telephone-number-attributes}{Взаимосвязи атрибутов объекта <<Телефонный номер>>}
 
-    \item \textbf{Тариф} \\
-    Тариф -- это включаемые услуги и ставки оплаты за эти же услуги, предоставляемые компанией. Этот объект характеризуется следующими атрибутами:
+    \item \textbf{Тариф} -- это включаемые услуги и ставки оплаты за эти же услуги, предоставляемые компанией. Этот объект характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Название:
         \begin{itemize}
@@ -79,14 +81,9 @@
             \item менеджер имеет доступ для чтения и записи, продавец-консультант и абонент имеют только доступ для чтения.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:tariff-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Тариф>>}
-        \center{\includegraphics{graphics/tariff-attributes}}
-    \end{figure}
+    \img{tariff-attributes}{Взаимосвязи атрибутов объекта <<Тариф>>}
 
-    \item \textbf{SIM-карта} \\
-    SIM-карта -- это идентификационный электронный модуль мобильной связи сотового оператора. Этот объект характеризуется следующими атрибутами:
+    \item \textbf{SIM-карта} -- это идентификационный электронный модуль мобильной связи сотового оператора. Этот объект характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Абонентский счёт:
         \begin{itemize}
@@ -115,14 +112,9 @@
             \item менеджер не имеет никакого доступа, продавец-консультант имеет только доступ для чтения, абонент имеет доступ для чтения и записи.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:sim-card-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<SIM-карта>>}
-        \center{\includegraphics{graphics/sim-card-attributes}}
-    \end{figure}
+    \img{sim-card-attributes}{Взаимосвязи атрибутов объекта <<SIM-карта>>}
 
-    \item \textbf{Клиент} \\
-    Клиент -- это лицо, заинтересованное в получении услуг данной компании. Клиент характеризуется следующими атрибутами:
+    \item \textbf{Клиент} -- это лицо, заинтересованное в получении услуг данной компании. Клиент характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Серия и номер паспорта:
         \begin{itemize}
@@ -178,14 +170,9 @@
             \item менеджер не имеет никакого доступа, продавец-консультант имеет доступ для чтения и записи, абонент имеет только доступ для чтения.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:client-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Клиент>>}
-        \center{\includegraphics[scale=0.9]{graphics/client-attributes}}
-    \end{figure}
+    \img{client-attributes}{Взаимосвязи атрибутов объекта <<Клиент>>}
 
-    \item \textbf{Абонент} \\
-    Абонент -- это пользователь услугами сотового оператора. Абонент характеризуется следующими атрибутами:
+    \item \textbf{Абонент} -- это пользователь услугами сотового оператора. Абонент характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Телефонный номер:
         \begin{itemize}
@@ -259,14 +246,9 @@
             \item менеджер не имеет никакого доступа, продавец-консультант имеет доступ для чтения и записи, абонент имеет только доступ для чтения.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:subscriber-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Абонент>>}
-        \center{\includegraphics[scale=0.9]{graphics/subscriber-attributes}}
-    \end{figure}
+    \img{subscriber-attributes}{Взаимосвязи атрибутов объекта <<Абонент>>}
 
-    \item \textbf{Заключённый договор} \\
-    Заключённый договор -- это документ, подтверждающий о начале отношений между абонентом и компанией сотового оператора. После заключения договора абонент имеет право периодически требовать оказания определённых услуг от компании в течение срока действия договора абонемента (договора). Заключённый договор характеризуется следующими атрибутами:
+    \item \textbf{Заключённый договор} -- это документ, подтверждающий о начале отношений между абонентом и компанией сотового оператора. После заключения договора абонент имеет право периодически требовать оказания определённых услуг от компании в течение срока действия договора абонемента (договора). Заключённый договор характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Телефонный номер:
         \begin{itemize}
@@ -349,13 +331,9 @@
             \item менеджер не имеет никакого доступа, продавец-консультант имеет доступ для чтения и записи, абонент имеет только доступ для чтения.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:contract-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Заключённый договор>>}
-        \center{\includegraphics{graphics/contract-attributes}}
-    \end{figure}
+    \img{contract-attributes}{Взаимосвязи атрибутов объекта <<Заключённый договор>>}
 
-    \item \textbf{Расторгнутый договор}
+    \item \textbf{Расторгнутый договор} -- это документ, подтверждающий о прекращении договорных отношений между абонентом и компанией сотового оператора. Расторгнутый договор характеризуется следующими атрибутами:
     \begin{enumerate}
         \item Фамилия:
         \begin{itemize}
@@ -420,11 +398,7 @@
             \item менеджер не имеет никакого доступа, продавец-консультант имеет доступ для чтения и записи, абонент имеет только доступ для чтения.
         \end{itemize}
     \end{enumerate}
-    \begin{figure}[H]
-        \label{fig:canceled-contract-attributes}
-        \caption{Взаимосвязи атрибутов объекта <<Расторгнутый договор>>}
-        \center{\includegraphics{graphics/canceled-contract-attributes}}
-    \end{figure}
+    \img{canceled-contract-attributes}{Взаимосвязи атрибутов объекта <<Расторгнутый договор>>}
 
     % \item \textbf{Телефонный справочник}
     % \begin{enumerate}
@@ -447,35 +421,19 @@
     \item Задачи, которые решает \textbf{менеджер}:
     \begin{enumerate}
         \item Добавление объекта <<Тариф>>.
-        \begin{figure}[H]
-            \label{fig:tariff-adding-task}
-            \caption{Задача добавления объекта <<Тариф>>}
-            \center{\includegraphics{graphics/tariff-adding-task}}
-        \end{figure}
+        \img{tariff-adding-task}{Задача добавления объекта <<Тариф>>}
         
         \item Изменение объекта <<Тариф>>.
-        \begin{figure}[H]
-            \label{fig:tariff-editing-task}
-            \caption{Задача редактирования объекта <<Тариф>>}
-            \center{\includegraphics{graphics/tariff-editing-task}}
-        \end{figure}
+        \img{tariff-editing-task}{Задача редактирования объекта <<Тариф>>}
     \end{enumerate}
 
     \item Задачи, которые решает \textbf{продавец-консультант}:
     \begin{enumerate}
         \item Добавление объекта <<Клиент>>.
-        \begin{figure}[H]
-            \label{fig:client-adding-task}
-            \caption{Задача добавления объекта <<Клиент>>}
-            \center{\includegraphics{graphics/client-adding-task}}
-        \end{figure}
+        \img{client-adding-task}{Задача добавления объекта <<Клиент>>}
 
         \item Редактирование объекта <<Клиент>>.
-        \begin{figure}[H]
-            \label{fig:client-editing-task}
-            \caption{Задача добавления объекта <<Клиент>>}
-            \center{\includegraphics{graphics/client-editing-task}}
-        \end{figure}
+        \img{client-editing-task}{Задача добавления объекта <<Клиент>>}
 
         \item Добавление объекта <<Абонент>>.
         
