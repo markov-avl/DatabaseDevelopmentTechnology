@@ -1,5 +1,6 @@
 {
     "latex-workshop.message.badbox.show": false,
+    "latex-workshop.message.badlabel.show": false,
     "cSpell.words": [
         "singlelinecheck",
         "ГГГГ",
