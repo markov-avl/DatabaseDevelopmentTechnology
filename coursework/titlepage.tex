@@ -11,12 +11,21 @@
 \usepackage{calc}
 \usepackage{multicol}
 \usepackage{array}
+\usepackage{adjustbox}
 
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
 \fancyfoot[C]{\fontsize{14}{14}\selectfont г. Владивосток \\ \the\year{}}
 
 \newcommand{\group}{Б9119-02.03.03техпро}
+\newcommand{\underlined}[2]{
+	\parbox[t][0cm][t]{#2 cm}{
+		\scriptsize
+		\centering
+		\rule[0pt]{\linewidth}{0.15mm}\\[-0.5ex]{#1}
+	}
+}
+\newcommand{\overlined}[2]{\raisebox{3.9pt}{\underline{\makebox[#2 cm][c]{#1}}}}
 
 
 \begin{document}
@@ -24,21 +33,25 @@
 	\thispagestyle{fancy}
 
 	\begin{center}
-		\includegraphics[scale=0.15]{../fefu-image} \\
+		\includegraphics[scale=0.15]{../fefu-logo} \\
 		\MakeUppercase{Министерство образования и науки Российской Федерации} \\
 		Федеральное государственное автономное образовательное учреждение высшего образования \\
 		\textbf{«Дальневосточный федеральный университет»} \\ (ДВФУ) \\
 		\noindent\rule{\textwidth}{1pt} \\ [0.5cm]
 		\textbf{
 			\MakeUppercase{Институт математики и компьютерных технологий} \\ [0.5cm]
-            Направление 02.03.03 <<Математическое обеспечение и администрирование информационных систем>> \\ [1cm]
-			\MakeUppercase{Курсовая работа по дисциплине} \\
-			\MakeUppercase{<<Технология разработки баз данных>>}
+            Департамент программной инженерии и искусственного интеллекта
 		} \\ [0.5cm]
 		\MakeUppercase{
 			Проектирование базы данных в предметной области \\
 			<<Оператор сотовой связи>>
-		} \\ [1.5cm]
+		} \\ [1cm]
+		\textbf{
+			\MakeUppercase{Курсовой проект}
+		} \\ [0.5cm]
+		по дисциплине <<Технология разработки баз данных>> \\
+		по образовательной программе подготовки бакалавров \\
+		по направлению 02.03.03 <<Математическое обеспечение и администрирование информационных систем>> \\ [1cm]
 	\end{center}
 
 	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -46,17 +59,17 @@
 
 	\begin{flushright}
 		\begin{tabular}{rrrr}
-			\multicolumn{4}{R{10cm}}{Студент группы \group, Марков А.В.}                                      \\ [0.2cm]
-			\rule{3cm}{0.15mm}   & <<\rule{1cm}{0.15mm}>>   & \rule{3cm}{0.15mm}   & \the\year{} г.  \\ [0.4cm]
-			\multicolumn{4}{R{10cm}}{Доцент департамента к.т.н., Антонова Е.И.}                               \\ [0.2cm]
-			\rule{3cm}{0.15mm}   & <<\rule{1cm}{0.15mm}>>   & \rule{3cm}{0.15mm}   & \the\year{} г. 
+			\multicolumn{4}{R{10cm}}{Студент группы \group, Марков А.В.}                                      \\ [0.4cm]
+			\underlined{(подпись)}{2} & <<\rule{1cm}{0.15mm}>> & \rule{4cm}{0.15mm}   & \the\year{} г.  \\ [0.4cm]
+			\multicolumn{4}{R{10cm}}{Доцент департамента ПИиИИ, Антонова Е.И.}                               \\ [0.4cm]
+			\underlined{(подпись)}{2} & <<\rule{1cm}{0.15mm}>> & \rule{4cm}{0.15mm}   & \the\year{} г. 
 		\end{tabular}
 	\end{flushright}
 
 	\begin{flushleft}
 		\begin{tabular}{llll}
-			\multicolumn{4}{l}{Защищена оценкой \rule{2.66cm}{0.15mm}}                      \\ [0.2cm]
-			\multicolumn{2}{l}{\rule{3cm}{0.15mm}} & \multicolumn{2}{l}{\rule{3cm}{0.15mm}} \\ [0.2cm]
+			\multicolumn{4}{l}{Защищена оценкой \rule{2.66cm}{0.15mm}}                                  \\ [0.4cm]
+			\multicolumn{2}{l}{\underlined{(подпись)}{2}} & \multicolumn{2}{l}{\overlined{Е.И. Антонова}{4}} \\ [0.4cm]
 			<<\rule{1cm}{0.15mm}>> & \multicolumn{2}{l}{\rule{3cm}{0.15mm}} & \the\year{} г.
 		\end{tabular}
 	\end{flushleft}

@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T02:16:58.404Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HgDEJ5gzisgFu2i_lCfR" version="16.4.7" type="device"><diagram id="XfqVvvZDQ5C3IiOAdjXj" name="Page-1">7Zpbb+MoFIB/jR9nZXxJ7Mc4l9mVWml2o1VnHhmbOuxiE2HSJPPrFwzE+NI0TZWmq0aKkM/hgO1zPuCA4/jTYveVwfXqnmaIOJ6b7Rx/5ngeCDzPkT832yvNOAiUImc400aNYol/Ia10tXaDM1S1DDmlhON1W5nSskQpb+kgY3TbNnukpH3XNcxRT7FMIelrH3DGV0obeeNG/zvC+crcGYxiVVNAY6zfpFrBjG4tlT93/CmjlKurYjdFRDrP+EW1WzxTe3gwhkp+SoPdn1mZLh7ip2wONw/lPyz/e/NF9/IEyUa/sDNznUldJmFdJuYaOFFQX8/rcmZKoVc24s1dq0qZTa3mxhN8b9xbbXFBYCmk5JGWfKlrXCGnK0yyO7inG/l6FYfpv0ZKVpThX8IeElEFhEJUM67p8d2WxVK21H0yVAmbb8ZnoKO6h7uW4R2suHkaSghcV/hn/XyyYQFZjsuEck4LbdQPifEvYhztLJUO0VdEC8TZXpjo2kD7SA+XKFTitmEPjLTJyuIu1jqocc8PHTdEiAsNxSsA8fqALFwnXjhx4MRAB/z9eBFelPGHBOel0BD0KEXpXizG7ESrC5xlskVSrWGKy/yuNpsFjeYv7TqpoqL5I6mH5ko0RKKHZE1xyWtfhon4iQeZur+FTiieYSpk0MjiJ80Zn9Ky4gziOvRIkLNFkp6EUQ45/Hngug/J0ZH5MjkaFd89DRX/Uqj4w3MJqAPqWSEG1nUwRMUt6KcGfXTtoIe9oC//uP9SB3JSl64eybL0tOa2CrywCnhRexkI+8uA5w6EGYSXivPolHUgdnvje2atDDMDgSiBhUhkrQaqSpRjWcZAN/m8U0J4MjvPrwODrFxsShgPrgMxMNPBIUdwLSoMQhoY14jnEWVSiSNEqU5uXL1lqXlfrqIr71VubDzLRnxtNuLhOWfRyzQnhhMR4nl7WjjCiZW76GxGLVs1ZjdOTuYEeNcGxZwrDc8ip4T3lqx2ktVw1E5WgxP3JCC6WJAHjrUGslWTashybO1S7YUh+vSJwmHE/H9OIsDAqdX52xM1KSxMwrBoZ7BHtrU3Rj7wwQXon1zUjERtFqx8sMWL2pW6FjKuRURgzR2TGxdvyyTfmYtgmAt7Y5lYCcLYIsLeW5oDTz1rTC0iFFz+pz/aeD0dQ/njO+MxfMr9BjyW98sbA69hILw6AwOHod0IojKbyM/PQsroRrglIVTm9CrtN1UpgVWFU5n888JsDBjdlBnKtB+F+9j+uy38kIKIihZnO7tytjfSDvPvukd5bbUSUtNICoc2ZbbAxDwHynJkdjci8Cua0xKSeaN9fvNQ0Q1L0REXaocJX+ToGB76zEc+ylE2LBbCARSMjiECOX5qf9sf4kPf4ZscH81Ox487Ox2vg5h6b93Ks77FdzoKOp95/XGnI+WYXkc1rofXfgPBA2e0lycYnEew+yEJNnvMFxGOPxTChz/WmHwrPI9grzMUQNjp6GyChdj8KUaZN38t8uf/AQ==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="XfqVvvZDQ5C3IiOAdjXj" name="Page-1">
+        <mxGraphModel dx="687" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-1" value="Телефонный номер" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="85" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-2" value="🔑 Телефонный номер" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-1" vertex="1">
+                    <mxGeometry y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-3" value="Свободный" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-1" vertex="1">
+                    <mxGeometry y="60" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-5" value="SIM-карта" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="55" width="200" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-6" value="🔑 Абонентский счёт" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-5" vertex="1">
+                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-7" value="Баланс на абонентском счёте" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-5" vertex="1">
+                    <mxGeometry y="60" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-8" value="Телефонный номер" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-5" vertex="1">
+                    <mxGeometry y="90" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-9" value="Подключённый тариф" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-5" vertex="1">
+                    <mxGeometry y="120" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-10" value="Подключённый тариф" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="40" width="160" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-11" value="🔑 Название" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-10" vertex="1">
+                    <mxGeometry y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-12" value="Абонентская плата" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-10" vertex="1">
+                    <mxGeometry y="60" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-15" value="Интернет трафик" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-10" vertex="1">
+                    <mxGeometry y="90" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-14" value="Количество минут" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-10" vertex="1">
+                    <mxGeometry y="120" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-13" value="Количество SMS" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xQdncFW9vdEauWnjrgUu-10" vertex="1">
+                    <mxGeometry y="150" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-16" value="" style="endArrow=doubleBlock;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="xQdncFW9vdEauWnjrgUu-2" target="xQdncFW9vdEauWnjrgUu-8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="420" as="sourcePoint"/>
+                        <mxPoint x="440" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="xQdncFW9vdEauWnjrgUu-17" value="" style="endArrow=doubleBlock;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="xQdncFW9vdEauWnjrgUu-11" target="xQdncFW9vdEauWnjrgUu-9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="95" as="sourcePoint"/>
+                        <mxPoint x="290" y="155" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

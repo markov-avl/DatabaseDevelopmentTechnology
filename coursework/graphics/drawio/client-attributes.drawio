@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T16:00:50.821Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gxhIjxvOzSl-F1EFPs-h" version="16.3.0" type="device"><diagram id="bjiwIFPa3C7VZGjJZWLB" name="Page-1">5ZjrT9swEMD/mnwk8vvxEfoAaZoYYhIb30LjtRlpXaXug/31cxI7TdJQKNNKEQi59t3lHN/9Yl8S4N50c5lF88lXHas0QCDeBLgfIAQJQkH+D+KnUsIZLAXjLImd0VZwm/xRTgicdJnEatEwNFqnJpk3hSM9m6mRaciiLNPrptkvnTZnnUdjtSO4HUXprvQuic2klArEt/IrlYwnfmbIZKl5iEaP40wvZ26+mZ6pUjONvBu3xsUkivW6JsKDAPcyrU3Zm256Ks3D6iNWXjd8RlvdcqZm5jUXXI/jGz38Ifr3gLLot5ne8KszXHpZRenShSLog+Ac5u0FDfowEKDoi6I/tLZu6Dr9oh0Uba9xlTMYFi0ohLAmGXjntkXOpoyTefJpsQuwBNjBxXqSGHU7j0a5Zm0htLKJmaZ2BG13NxYuPCuVGbWpiVxsLpWeKpM9WROvZW5+hzABbrzeAgF9Lic1GISTRY7BceV6mwzbcfk4IDekOzckb6Uo2sFJhczG7J1DxjtDJutgwhpxgxqkFemDGqSihu25B/8dI07EqUEqdiO+E6BZfJ7v0Xb0kOrRYzMqxeap8imAHVnbYZJ63cJEmfHXxnr5kKoL56FQ1UyfDe5CL7ORenkLtP7Gyrz8OKq4cZTspqqWCtqRCS/LVBqZZNU8gLrS42b4phO7sooEDJskYNbKcLlud1X9WGg5qm7IO0ItR2VgdhwVtFTLfjtAfh2fgCB+UgQRJEOJEZUcUCosQLjJgQAhJJQhKRCAHAD8Nr4otH6wsBUT4wABIpuzQBkKyTBHnHBMGDkqe+gw9pr8nBKB/EPuYVW94E8zCUJKJWECQsSYbMHwWuKIhKEE1P4KwIT9a4EN/tsGdz+aRqv5cPN9avp311/M+Ofi55k/5Fs1CanVxVX9C3bqEFa0xBcwVcXdqsfL4uTCq+rGJ1Jft0uXoxaLnYnpePf5+AfPPgRP5LGHjIaUEEYl5RILAXnz+ZQkFBxLKSTF9hUc87duAyQkjEOBGOKM2R2ltQ3Q/HzD9mxC9h7s6XTUXaHj5e7UT559aH2w2odKFnLIpRAIMSL81yqPBu/UHlz5EByivHiCnGMKcavyQZ3aI+FHPxl+p1X4MLwPP9LNzcH4iX34ke4n4J/xs8PtJ83SfPvJGA/+Ag==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="bjiwIFPa3C7VZGjJZWLB" name="Page-1">
+        <mxGraphModel dx="1201" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-3" value="Серия и номер паспорта" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="400" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-4" value="ФИО" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-7" value="Место прописки" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="400" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-8" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="OgdQoFX8DZ056ajtmQ7H-3" target="OgdQoFX8DZ056ajtmQ7H-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="360" as="sourcePoint"/>
+                        <mxPoint x="250" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-10" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="OgdQoFX8DZ056ajtmQ7H-3" target="OgdQoFX8DZ056ajtmQ7H-7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="429.93259705582363" y="380.14562982017003" as="sourcePoint"/>
+                        <mxPoint x="510.1381696702049" y="319.8963727473464" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="OgdQoFX8DZ056ajtmQ7H-20" value="" style="endArrow=doubleBlock;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="OgdQoFX8DZ056ajtmQ7H-7" target="OgdQoFX8DZ056ajtmQ7H-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="490.5594681126694" as="sourcePoint"/>
+                        <mxPoint x="491.90524980688883" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZcmavpFxTmtDWOKtgYsY-1" value="Дата рождения клиента" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZcmavpFxTmtDWOKtgYsY-3" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="OgdQoFX8DZ056ajtmQ7H-3" target="ZcmavpFxTmtDWOKtgYsY-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="165.54465957938817" y="394.87399895382737" as="sourcePoint"/>
+                        <mxPoint x="494.46718262766126" y="305.14531382881967" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZcmavpFxTmtDWOKtgYsY-4" value="" style="endArrow=doubleBlock;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="ZcmavpFxTmtDWOKtgYsY-1" target="OgdQoFX8DZ056ajtmQ7H-7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="596.7179882264861" y="376.7179882264861" as="sourcePoint"/>
+                        <mxPoint x="543.2820117735139" y="323.2820117735139" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZcmavpFxTmtDWOKtgYsY-5" value="" style="endArrow=doubleBlock;html=1;rounded=0;endFill=1;startArrow=doubleBlock;startFill=1;" parent="1" source="ZcmavpFxTmtDWOKtgYsY-1" target="OgdQoFX8DZ056ajtmQ7H-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="636.7179882264861" y="443.2820117735139" as="sourcePoint"/>
+                        <mxPoint x="583.2820117735139" y="496.7179882264861" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
