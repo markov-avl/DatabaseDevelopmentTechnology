@@ -101,15 +101,21 @@ PostgreSQL обладает рядом особенностей:
         \hline
         \textbf{Название атрибута}   & \textbf{Тип}         & \textbf{Свойство} \\
         \hline \endhead
-        \texttt{phone\_number}       & \texttt{bigint}      & \texttt{NOT NULL} \\
-        \hline
-        \texttt{subscriber\_account} & \texttt{varchar(20)} & \texttt{NULL}     \\
-        \hline
+        \texttt{phone\_number}       & \texttt{bigint}      & \texttt{NOT NULL} \\ \hline
+        \texttt{subscriber\_account} & \texttt{varchar(20)} & \texttt{NULL}     \\ \hline
     \end{xltabular}
 
-    \tab Первичный ключ: \texttt{phone\_number}.
-
-    \tab Внешние ключи: \texttt{subscriber\_account}.
+    \renewcommand{\arraystretch}{1.5}
+    \begin{xltabular}[h]{\textwidth}{|X|X|}
+        \caption{Дополнительные свойства атрибутов таблицы <<Телефонные номера>>} \\
+        \hline
+        \textbf{Первичный ключ}                                  & \texttt{phone\_number}                               \\ \hline
+        \textbf{Внешние ключи}                                   & \texttt{subscriber\_account}                         \\ \hline
+        \textbf{Валидация атрибута \texttt{phone\_number}}       & \texttt{\textasciicircum{}\textbackslash{}d\{10\}\$} \\ \hline
+        \textbf{Маска атрибута \texttt{phone\_number}}           & \texttt{+7 (999) 999-99-99}                          \\ \hline
+        \textbf{Валидация атрибута \texttt{subscriber\_account}} & \texttt{\textasciicircum{}\textbackslash{}d\{20\}\$} \\ \hline
+        \textbf{Маска атрибута \texttt{subscriber\_account}}     & \texttt{99999999999999999999}                        \\ \hline
+    \end{xltabular}
 
 
     \item Таблица \textbf{<<Тарифы>>} (tariffs)
@@ -120,19 +126,24 @@ PostgreSQL обладает рядом особенностей:
         \hline
         \textbf{Название атрибута}  & \textbf{Тип}          & \textbf{Свойство} \\
         \hline \endhead
-        \texttt{name}               & \texttt{varchar(64)}  & \texttt{NOT NULL} \\
-        \hline
-        \texttt{subscription\_fee}  & \texttt{smallint}     & \texttt{NOT NULL} \\
-        \hline
-        \texttt{internet\_traffic}  & \texttt{decimal(4,2)} & \texttt{NOT NULL} \\
-        \hline
-        \texttt{minutes}            & \texttt{smallint}     & \texttt{NOT NULL} \\
-        \hline
-        \texttt{sms}                & \texttt{smallint}     & \texttt{NOT NULL} \\
-        \hline
+        \texttt{name}               & \texttt{varchar(64)}  & \texttt{NOT NULL} \\ \hline
+        \texttt{subscription\_fee}  & \texttt{smallint}     & \texttt{NOT NULL} \\ \hline
+        \texttt{internet\_traffic}  & \texttt{decimal(4,2)} & \texttt{NOT NULL} \\ \hline
+        \texttt{minutes}            & \texttt{smallint}     & \texttt{NOT NULL} \\ \hline
+        \texttt{sms}                & \texttt{smallint}     & \texttt{NOT NULL} \\ \hline
     \end{xltabular}
 
-    \tab Первичный ключ: \texttt{name}.
+    \renewcommand{\arraystretch}{1.5}
+    \begin{xltabular}[h]{\textwidth}{|X|X|}
+        \caption{Дополнительные свойства атрибутов таблицы <<Тарифы>>} \\
+        \hline
+        \textbf{Первичный ключ}                                  & \texttt{name}                               \\ \hline
+        \textbf{Валидация атрибута \texttt{name}}                & \texttt{\textasciicircum{}{[} \textbackslash{}wА-ЯЁа-яё!?,\%-{]}\{2,64\}\$} \\ \hline
+        \textbf{Валидация атрибута \texttt{subscription\_fee}}   & \texttt{+7 (999) 999-99-99}                          \\ \hline
+        \textbf{Валидация атрибута \texttt{subscriber\_account}} & \texttt{\textasciicircum{}\textbackslash{}d\{20\}\$} \\ \hline
+        \textbf{Маска атрибута \texttt{subscriber\_account}}     & \texttt{99999999999999999999}                        \\ \hline
+    \end{xltabular}
+
    
 
     \item Таблица \textbf{<<Клиенты>>} (clients)
