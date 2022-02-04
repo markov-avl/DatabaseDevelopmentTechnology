@@ -1,1 +1,4 @@
 */*.pdf
+**/*.bak
+**/.idea
+**/node_modules

@@ -38,17 +38,19 @@
         "editor.wordWrap": "on",
     },
     "cSpell.enabled": true,
-    "cSpell.enabledLanguageIds": [
-        "tex"
-    ],
     "cSpell.enableFiletypes": [
         "tex"
     ],
     "cSpell.language": "en,ru",
     "cSpell.words": [
+        "LOLCODE",
+        "MVCC",
         "singlelinecheck",
+        "smallint",
+        "varchar",
         "ГГГГ",
         "Даталогическая",
-        "Инфологическая"
+        "Инфологическая",
+        "Многоверсионность"
     ]
 }
